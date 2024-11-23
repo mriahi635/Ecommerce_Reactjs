@@ -1,0 +1,15 @@
+/* Custom Styles */
+.sign-up-page {
+    background: linear-gradient(45deg, #6ee7b7, #3b82f6); /* Gradient background */
+  }
+  
+  .error {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ef4444; /* Red color for error messages */
+  }
+  
+  button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+  }
+  

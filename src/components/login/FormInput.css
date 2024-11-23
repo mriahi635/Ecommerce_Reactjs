@@ -1,0 +1,38 @@
+/* formInput.css */
+
+/* Style for the input fields */
+.form-input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.25rem;
+    border-radius: 0.375rem;
+    border: 1px solid #d1d5db; /* Light gray border */
+    background-color: #f9fafb; /* Light gray background */
+    font-size: 1rem;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-input:focus {
+    border-color: #3b82f6; /* Blue border on focus */
+    outline: none;
+    background-color: #ffffff; /* White background on focus */
+  }
+  
+  .form-input::placeholder {
+    color: #6b7280; /* Light gray for placeholder text */
+  }
+  
+  .form-input.error {
+    border-color: #ef4444; /* Red border in case of error */
+    background-color: #fee2e2; /* Light red background for error */
+  }
+  
+  /* Label Styling */
+  label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4b5563; /* Dark gray for label text */
+  }
+  
+  

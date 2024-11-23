@@ -1,0 +1,46 @@
+/* Custom Styles */
+.sign-in-page {
+    background: linear-gradient(45deg, #6ee7b7, #3b82f6); /* Gradient background */
+  }
+  
+  .error {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ef4444; /* Red color for error messages */
+  }
+  
+  button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+  }
+  /* signin.css */
+
+/* Custom Input Field Styles */
+.input-field {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 0.375rem; /* Rounded corners */
+    border: 1px solid #d1d5db; /* Light gray border */
+    background-color: #f9fafb; /* Very light gray background */
+    font-size: 1rem;
+    color: #333333;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .input-field:focus {
+    border-color: #3b82f6; /* Blue border on focus */
+    outline: none;
+    background-color: #ffffff; /* White background on focus */
+  }
+  
+  .input-field::placeholder {
+    color: #6b7280; /* Placeholder text color */
+  }
+  
+  /* Optional: Error state */
+  .input-field.error {
+    border-color: #ef4444; /* Red border if error */
+    background-color: #fee2e2; /* Light red background */
+  }
+  
+  
